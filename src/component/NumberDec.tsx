@@ -102,7 +102,7 @@ export const NumberDecMobile = ({id}:{id:number}) => {
                     ) :(
                         <ArrowBackIcon />
                     )}
-                    <Typography variant="h3" color="white">{number.name}</Typography>
+                    <Typography variant="h4" color="white" textAlign="center">{number.name}</Typography>
                     {number.id < 22 ? (
                         <Button endIcon={<ArrowForwardIcon />} className={styles.numberButton} onClick={()=>navigate(`/numbers/${number.id+1}`)}>M{number.id+1}</Button>
                     ) :(
@@ -111,7 +111,7 @@ export const NumberDecMobile = ({id}:{id:number}) => {
                 </Box>
 
                 <img src={number.image} alt="ナンバー写真" className={styles.numberImg_mobile} />
-                <Typography variant="h6" color="white">produced by &nbsp;&nbsp;&nbsp;{number.leaders}</Typography>
+                <Typography variant="body1" color="white">produced by &nbsp;&nbsp;&nbsp;{number.leaders}</Typography>
                 <Box className={styles.categoryName_mobile}>
                     <Typography variant="body1" color="rgba(255,255,255,0.6)">Genre</Typography>
                     <Typography variant="h6">{number.genre}</Typography>
@@ -125,8 +125,8 @@ export const NumberDecMobile = ({id}:{id:number}) => {
                     </Box>
                 </Box>
                 <Box className={styles.categoryName_mobile}>
-                    <Typography variant="body1" color="rgba(255,255,255,0.6)">Comment</Typography>
-                    <Typography variant="body1" sx={{ml:5}}>{number.desc}</Typography>
+                    <Typography variant="body2" color="rgba(255,255,255,0.6)">Comment</Typography>
+                    <Typography variant="body2" sx={{ml:2}}>{number.desc}</Typography>
                 </Box>
             </Box>
         </Box>

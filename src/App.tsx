@@ -25,6 +25,7 @@ import {HistoryPageMobile} from "./component/HistoryPage";
 import {ConceptPageMobile} from "./component/ConceptPage";
 import {AccessPageMobile} from "./component/AccessPage";
 import {NumberDecMobile} from "./component/NumberDec.tsx";
+import {TimeTablePageMobile} from "./component/TimeTablePage";
 
 const customTheme = createTheme({
     typography: {
@@ -94,7 +95,7 @@ function AppContent() {
                                 <Route path="/concept" element={<ConceptPageMobile/>} />
                                 <Route path="/history" element={<HistoryPageMobile />}/>
                                 <Route path="/cast" element={<CastPage />}/>
-                                <Route path="/timetable" element={<TimeTablePage />}/>
+                                <Route path="/timetable" element={<TimeTablePageMobile />}/>
                                 <Route path="/access" element={<AccessPageMobile />}/>
                                 <Route path="/ticket" element={<TicketPage/>} />
                                 <Route path="/numbers" element={<NumbersPage />} />
