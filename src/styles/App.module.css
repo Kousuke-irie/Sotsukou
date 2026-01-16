@@ -27,7 +27,7 @@
     background-size: cover;
     background-position: center;
     filter: blur(10px) brightness(20%);
-    transform: scale(1.1); /* 拡大を復活（白い影対策） */
+    transform: scale(1.0); /* 拡大を復活（白い影対策） */
 }
 
 .snsButton {
