@@ -203,11 +203,11 @@ export const TimeTablePageMobile = () => {
                     <TimelineItem className={styles.timelineItem}>
                         <TimelineOppositeContent className={styles.time}>
                             <Box sx={{ textAlign: 'center' }}>
-                                <Typography variant="body1" sx={{ position:'absolute' ,top:'-50px'}}>第1回公演</Typography>
+                                <Typography variant="body1" sx={{ position:'absolute' ,top:'-50px'}}>第1回</Typography>
                                 <Typography variant="body1">13:00</Typography>
                             </Box>
                             <Box sx={{ textAlign: 'center' }}>
-                                <Typography variant="body1" sx={{ position:'absolute' ,top:'-50px'}}>第2回公演</Typography>
+                                <Typography variant="body1" sx={{ position:'absolute' ,top:'-50px'}}>第2回</Typography>
                                 <Typography variant="body1">17:00</Typography>
                             </Box>
                         </TimelineOppositeContent>
