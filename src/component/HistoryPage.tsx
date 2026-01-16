@@ -74,7 +74,7 @@ export const HistoryPageMobile = () => {
                 <Box className={styles.contentBox_mobile}>
                     <img src={item1} alt="画像" className={styles.contentImg_mobile}/>
                     <Box className={styles.contentText_mobile}>
-                        <Typography variant="h4"> What's "WISH" ？</Typography>
+                        <Typography variant="h5"> What's "WISH" ？</Typography>
                         <Typography variant="body1">東京大学所属のストリートダンスサークルであり、その規模は合計150人にも及ぶ。</Typography>
                         <Typography variant="body1">年に一度、総制作費1,000万円規模のダンス単独公演を、企画から演出、運営に至るまで、文字通り「ゼロから」作り上げる。</Typography>
                         <Typography variant="body1">連綿と続くその歴史は今年で47年目に突入した。</Typography>
@@ -83,7 +83,7 @@ export const HistoryPageMobile = () => {
                 <Box className={styles.contentBox_mobile}>
                     <img src={item2} alt="画像" className={styles.contentImg_mobile}/>
                     <Box className={styles.contentText_mobile}>
-                        <Typography variant="h4">What's "卒業公演"？</Typography>
+                        <Typography variant="h5">What's "卒業公演"？</Typography>
                         <Typography variant="body1">現役生のみならず、歴史を築いてきたOB・OGたちが一同に介する公演。</Typography>
                         <Typography variant="body1">10世代におよぶダンサーたちが同じステージに立ち、それぞれの時代が培ってきたスキルとパッションをぶつけ合う。</Typography>
                         <Typography variant="body1">過去と未来を繋ぎ、最高の瞬間を共有する”公演”</Typography>

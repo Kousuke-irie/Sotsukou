@@ -126,7 +126,7 @@ export const HomePage = () => {
                     <Grid container direction="column" spacing={20}>
                         <Box sx={{position: 'relative', width: {xs:'85%', md:'70%'}, mb: 10, ml:'auto'}}>
                             <ScrollReveal direction={"right"} >
-                                <Typography variant={"h1"} className={styles.contentNameLeft} sx={{fontFamily: "'Tangerine', cursive"}}>Concept</Typography>
+                                <Typography variant="h1" className={styles.contentNameLeft} sx={{fontFamily: "'Tangerine', cursive"}}>Concept</Typography>
                             </ScrollReveal>
                             <FadeIn>
                                 <Paper elevation={0} className={`${styles.componentBox} ${styles.conceptBox}`} sx={{backgroundColor: 'transparent'}}>
