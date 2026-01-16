@@ -124,7 +124,7 @@ export const HomePage = () => {
 
                 <Box sx={{py: 50}}>
                     <Grid container direction="column" spacing={20}>
-                        <Box sx={{position: 'relative', width: '70%', mb: 10, ml:'auto'}}>
+                        <Box sx={{position: 'relative', width: {xs:'85%', md:'70%'}, mb: 10, ml:'auto'}}>
                             <ScrollReveal direction={"right"} >
                                 <Typography variant={"h1"} className={styles.contentNameLeft} sx={{fontFamily: "'Tangerine', cursive"}}>Concept</Typography>
                             </ScrollReveal>
@@ -136,7 +136,7 @@ export const HomePage = () => {
                                 </Paper>
                             </FadeIn>
                         </Box>
-                        <Box sx={{position: 'relative', width: '70%', mb: 10, mr:'auto'}}>
+                        <Box sx={{position: 'relative', width: {xs:'85%', md:'70%'}, mb: 10, mr:'auto'}}>
                             <ScrollReveal direction={"left"} >
                                 <Typography variant={"h1"} className={styles.contentNameRight} sx={{fontFamily: "'Tangerine', cursive"}}>History</Typography>
                             </ScrollReveal>
@@ -148,7 +148,7 @@ export const HomePage = () => {
                                 </Paper>
                             </FadeIn>
                         </Box>
-                        <Box sx={{position: 'relative', width: '70%', mb: 10, ml:'auto'}}>
+                        <Box sx={{position: 'relative', width: {xs:'85%', md:'70%'}, mb: 10, ml:'auto'}}>
                             <ScrollReveal direction={"right"} >
                                 <Typography variant={"h1"} className={styles.contentNameLeft} sx={{fontFamily: "'Tangerine', cursive"}}>Cast</Typography>
                             </ScrollReveal>
