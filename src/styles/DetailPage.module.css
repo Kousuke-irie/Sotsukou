@@ -127,6 +127,15 @@
     gap:50px;
 }
 
+.timeText_mobile {
+    display: flex;
+    flex-direction: column; /* 横並びではなく縦並びにする */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px; /* 隙間を狭くする */
+    width: 100%;
+}
+
 .timelineItem {
     width: 100%;
 }

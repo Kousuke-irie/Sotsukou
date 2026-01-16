@@ -219,7 +219,7 @@ export const TimeTablePageMobile = () => {
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>
-                            <Box className={styles.timeText}>
+                            <Box className={styles.timeText_mobile}>
                                 <Typography variant="body1" color="white">
                                     開場
                                 </Typography>
@@ -247,7 +247,7 @@ export const TimeTablePageMobile = () => {
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>
-                            <Box className={styles.timeText}>
+                            <Box className={styles.timeText_mobile}>
                                 <Typography variant="body1" color="white">
                                     開演
                                 </Typography>
@@ -274,7 +274,7 @@ export const TimeTablePageMobile = () => {
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
-                                <Box className={styles.timeText}>
+                                <Box className={styles.timeText_mobile}>
                                     <Typography variant="subtitle2" color="white">
                                         M{item.id}
                                     </Typography>
@@ -306,7 +306,7 @@ export const TimeTablePageMobile = () => {
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>
-                            <Box className={styles.timeText}>
+                            <Box className={styles.timeText_mobile}>
                                 <Typography variant="body1" color="white">
                                     終演
                                 </Typography>
@@ -334,7 +334,7 @@ export const TimeTablePageMobile = () => {
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>
-                            <Box className={styles.timeText}>
+                            <Box className={styles.timeText_mobile}>
                                 <Typography variant="body1" color="white">
                                     閉場
                                 </Typography>

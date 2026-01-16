@@ -9,7 +9,7 @@ export const Navbar = ({onMenuClick}:{onMenuClick:()=>void}) => {
 
     return (
         <AppBar position="fixed" elevation={3} sx={{backgroundColor: 'rgba(10,10,10,0.5)'}}>
-            <Toolbar sx={{gap: 6}}>
+            <Toolbar sx={{gap:{xs: 1, md: 4}}}>
                 <Box sx={{maxHeight:'4em', display:'flex', alignItems: 'center', gap:1}}>
                     <Button onClick={()=>{navigate('/'); window.scrollTo(0, 0);}} sx={{textTransform:'none'}} >
                         {isMobile ? (
@@ -28,7 +28,7 @@ export const Navbar = ({onMenuClick}:{onMenuClick:()=>void}) => {
                 {!isMobile && (
                     <Button onClick={()=>navigate('/ticket')} sx={{bgcolor: 'rgba(255,255,255,0.2)', color:'white', minWidth:'120px', transition:'0.3s','&:hover':{transform:'scale(1.1)'}}}>チケットを購入</Button>
                 )}
-                <Box sx={{display: 'flex', gap: 2}}>
+                <Box sx={{display: 'flex'}}>
                     <IconButton onClick={onMenuClick} sx={{ transition:'0.3s','&:hover':{transform:'scale(1.2)'}}} >
                         <MenuIcon sx={{color: 'white', fontSize: '1.5em'}}/>
                     </IconButton>
