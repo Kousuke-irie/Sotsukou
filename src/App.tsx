@@ -83,6 +83,11 @@ function AppContent() {
 
     return (
             <Box className={styles.mainContent}>
+
+                <div className={styles.backgroundWrapper}>
+                    <div className={styles.backgroundImage}></div>
+                </div>
+
                 <Navbar onMenuClick={() => setSidebarOpen(true)}/>
 
                 <Sidebar open={isSidebarOpen} onClose={() => setSidebarOpen(false)} />
