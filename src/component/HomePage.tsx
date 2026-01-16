@@ -165,9 +165,7 @@ export const HomePage = () => {
                                 <Grid container direction="row" sx={{justifyContent: "space-around"}}>
                                     {isMobile ? (
                                         <>
-                                            <Divider sx={{border: '1px solid white', width:'18%'}} />
-                                            <Typography variant={"h2"} className={styles.contentNameCenter_mobile} sx={{fontFamily: "'Tangerine', cursive"}}>Numbers</Typography>
-                                            <Divider sx={{border: '1px solid white', width:'18%'}} />
+                                            <Typography variant={"h1"} className={styles.contentNameCenter_mobile} sx={{fontFamily: "'Tangerine', cursive"}}>Numbers</Typography>
                                         </>
                                     ) : (
                                         <>
