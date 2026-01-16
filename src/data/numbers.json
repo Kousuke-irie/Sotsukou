@@ -1,0 +1,110 @@
+[
+  {
+    "id": 22,
+    "name": "Buckdown",
+    "image": "/src/assets/numbers/hiphop1.jpg",
+    "genre": "hiphop",
+    "leaders": "北井諒輝・牧鶴翔大",
+    "music": [],
+    "desc": ""
+  },
+  {
+    "id": 12,
+    "name": "spackling",
+    "image": "/src/assets/numbers/hiphop2.jpg",
+    "genre": "hiphop",
+    "leaders": "熊谷有紗",
+    "music": [],
+    "desc": ""
+  },
+  {
+    "id": 13,
+    "name": "ensemble",
+    "image": "/src/assets/numbers/house.jpg",
+    "genre": "house",
+    "leaders": "井田茂一郎・吉村尚人・岩井脩",
+    "music": [],
+    "desc": ""
+  },
+  {
+    "id": 14,
+    "name": "Cool Revelry",
+    "image": "/src/assets/numbers/lock1.jpg",
+    "genre": "lock",
+    "leaders": "黒川日向我・相馬大輝・鷹木宏樹",
+    "music": [],
+    "desc": ""
+  },
+  {
+    "id": 15,
+    "name": "Still Linger",
+    "image": "/src/assets/numbers/lock2.jpg",
+    "genre": "lock",
+    "leaders": "鈴木満央・尾澤朱季",
+    "music": [],
+    "desc": ""
+  },
+  {
+    "id": 16,
+    "name": "巴",
+    "image": "/src/assets/numbers/pop.jpg",
+    "genre": "pop",
+    "leaders": "入江康介・石島崚登",
+    "music": [],
+    "desc": ""
+  },
+  {
+    "id": 17,
+    "name": "with presence",
+    "image": "/src/assets/numbers/waack.jpg",
+    "genre": "waack",
+    "leaders": "佐藤汐音・瀬川鈴奈・柳澤奈央",
+    "music": [],
+    "desc": ""
+  },
+  {
+    "id": 18,
+    "name": "Buddy",
+    "image": "/src/assets/numbers/jazz1.jpg",
+    "genre": "jazz",
+    "leaders": "花岡千尋・山田知英",
+    "music": [],
+    "desc": ""
+  },
+  {
+    "id": 19,
+    "name": "overture",
+    "image": "/src/assets/numbers/jazz2.jpg",
+    "genre": "jazz",
+    "leaders": "山田知英・佐藤真由香",
+    "music": [],
+    "desc": ""
+  },
+  {
+    "id": 20,
+    "name": "門出",
+    "image": "/src/assets/numbers/freestyle1.jpg",
+    "genre": "freestyle",
+    "leaders": "山田知英・長野未来",
+    "music": [],
+    "desc": ""
+  },
+  {
+    "id": 21,
+    "name": "肉坊主",
+    "image": "/src/assets/numbers/freestyle2.jpg",
+    "genre": "freestyle",
+    "leaders": "入江康介・相馬大輝・牧鶴翔大",
+    "music": ["Jungle Juzz / Cool the Gang","Hummin' feat.ダブゾンビ / クロマニオン","Womb to Tomb / Pete Philly & perquisite","Hip Hop Hooray / naughty by Nature"],
+    "desc": "ダンスや音楽のルーツを重んじながら革新性ある新たなスタイルを提示、今一度ダンスや音楽が持つ魅力、大事なMESSAGEを与えていく、そんなチームを目指す。"
+  },
+  {
+    "id": 11,
+    "name": "Vivace",
+    "image": "/src/assets/numbers/op.jpg",
+    "genre": "all genre",
+    "leaders": "牧鶴翔大・中野優香",
+    "music": [],
+    "desc": ""
+  }
+]

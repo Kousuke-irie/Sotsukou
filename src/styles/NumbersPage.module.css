@@ -1,0 +1,115 @@
+.body {
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+.header {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.pageTitle {
+    font-family: 'Tangerine', cursive;
+    color: white;
+    font-size: 5rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.gridContainer {
+    display: grid;
+    /* PCは3列、タブレット2列、スマホ1列の自動調整 */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    position: relative;
+    aspect-ratio: 3 / 4; /* カードの比率 */
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+}
+
+.imageWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.imageWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.card:hover .imageWrapper img {
+    transform: scale(1.1); /* ホバーで画像拡大 */
+}
+
+/* グラデーションオーバーレイ */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 50%, transparent 100%);
+    transition: background 0.3s;
+}
+
+.card:hover .overlay {
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 20%, rgba(0,0,0,0.4) 60%, rgba(0,0,0,0.2) 100%);
+}
+
+.content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.numberId {
+    font-family: 'Shippori Mincho', serif;
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.numberName {
+    font-family: 'Shippori Mincho', serif; /* タイトルフォント */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.genre {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-top: 4px;
+    opacity: 0; /* 最初は隠す */
+    transform: translateY(10px);
+    transition: 0.3s;
+}
+
+.card:hover .genre {
+    opacity: 1;
+    transform: translateY(0);
+}

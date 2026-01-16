@@ -1,0 +1,257 @@
+.titleSection {
+    position: relative;
+    height: 200vh;
+    width: 100%;
+}
+
+.backgroundLayer {
+    position: absolute;
+    top: 10vh;
+    left: 25%;
+    width: 50%;
+    height: 70vh;
+    background-image: url('../assets/background/title.jpg');
+    filter: brightness(70%);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.titleWrapper {
+    position: relative;
+    top: 0;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.stickyTitle {
+    position: sticky !important;
+    top: 40vh;
+}
+
+.infoSection {
+    position: absolute;
+    bottom: 1vh;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+
+.titlePaper {
+    width:30vh;
+    height:20vh;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    display: grid;
+}
+
+.contentNameLeft {
+    position: absolute;
+    top: -50px;
+    left: -60px;
+    z-index: 10;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+    pointer-events: none
+}
+
+.contentNameRight {
+    position: absolute;
+    top: -50px;
+    right: -60px;
+    z-index: 10;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+    pointer-events: none
+}
+
+.contentNameCenter {
+    position: absolute;
+    top: -50px;
+    z-index: 10;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+    pointer-events: none
+}
+
+.contentNameCenter_mobile {
+    position: absolute;
+    top: -35px;
+    z-index: 10;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+    pointer-events: none
+}
+
+.contentButton {
+    width: 60px;
+    height: 60px;
+    min-width: 0;
+    border-Radius: 50%;
+    border: 1px solid white;
+    color: white;
+    transition: 0.3s;
+    &:hover {
+        background-color: rgba(255,255,255,0.2);
+        transform: scale(1.1);
+        border: 1px solid white;
+    }
+}
+
+.componentBox {
+    position: relative;
+    width:100%;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.componentBox.componentBox::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: brightness(0.6);
+}
+
+.conceptBox.conceptBox::before{
+    background-image: url(../assets/background/concept.jpg);
+}
+
+.historyBox.historyBox::before {
+    background-image: url(../assets/background/history.jpg);
+}
+
+.castBox.castBox::before {
+    background-image: url(../assets/background/cast.jpg);
+}
+
+.numberBox {
+    position: relative;
+    width:100%;
+    height: 550px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+    background-color: rgba(255,255,255,0.05);
+}
+
+.textBox_right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 30px;
+    background-color: transparent;
+}
+
+.textBox_right_mobile {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 0 10px 5px rgba(255,255,255,0.1);
+    z-index: 2;
+}
+
+.scrollImg_left_mobile {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: -10%;
+    background-image: url(../assets/scroll_right/item4.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(60%);
+    z-index: 1;
+}
+
+.scrollImg_right_mobile {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: -10%;
+    background-image: url(../assets/scroll_left/item3.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(60%);
+    z-index: 1;
+}
+
+.textBox_left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-right: 30px;
+    background-color: transparent;
+    text-align: right;
+}
+
+.textBox_left_mobile {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: right;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 0 10px 5px rgba(255,255,255,0.1);
+    z-index: 2;
+}
+
+.textBox {
+    height: 70%;
+    color: white;
+    display: grid;
+    gap: 1px;
+}
+
+.infoButton {
+    height: 60px;
+    color: white;
+    transition: 0.3s;
+    &:hover {
+        background-color: rgba(255,255,255,0.2);
+        transform: scale(1.1);
+    }
+}
+
+.infoButton_mobile {
+    height: 40px;
+    color: white;
+    transition: 0.3s;
+    &:hover {
+        background-color: rgba(255,255,255,0.2);
+        transform: scale(1.1);
+    }
+}
