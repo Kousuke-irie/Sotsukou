@@ -70,15 +70,6 @@
     pointer-events: none
 }
 
-@media screen and (max-width: 800px) {
-    .contentNameLeft {
-        left: -20px;
-    }
-    .contentNameRight {
-        right: -20px;
-    }
-}
-
 .contentNameRight {
     position: absolute;
     top: -50px;
