@@ -32,8 +32,7 @@ a:hover {
 html, body, #root {
     margin: 0;
     padding: 0;
-    width: 100%;
-    overflow-x: hidden; /* htmlと#rootにも追加することで強制力を高めます */
+    width: 100%; /* htmlと#rootにも追加することで強制力を高めます */
 }
 
 h1 {

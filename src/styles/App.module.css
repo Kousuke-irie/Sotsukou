@@ -10,11 +10,12 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    overflow: hidden; /* 重要：これで拡大した画像のはみ出しをカットします */
+    overflow: hidden;
     z-index: -2;
-    pointer-events: none; /* 背景がクリック操作を邪魔しないようにする */
+    pointer-events: none;
+    background-color: black;
 }
 
 /* 実際に表示する画像。拡大しても親要素でカットされる */
