@@ -12,7 +12,7 @@ export const Sidebar = ({ open, onClose }: Props) => {
     const navigate = useNavigate();
 
     return (
-        <Drawer anchor="right" open={open} onClose={onClose} PaperProps={{ sx:{width:'400px', backgroundColor:'black', color:'white', display:'flex',  justifyContent:'flex-start'} }}>
+        <Drawer anchor="right" open={open} onClose={onClose} PaperProps={{ sx:{width:'300px', backgroundColor:'black', color:'white', display:'flex',  justifyContent:'flex-start'} }}>
             <Box className={styles.closeButtonBox}>
                 <IconButton onClick={onClose} className={styles.closeButton}>
                     <CloseIcon sx={{color: 'white', fontSize: '1.5em'}} />

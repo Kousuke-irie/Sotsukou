@@ -21,7 +21,7 @@
 .gridContainer {
     display: grid;
     /* PCは3列、タブレット2列、スマホ1列の自動調整 */
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 20px;
     padding: 0 5%;
     max-width: 1200px;
@@ -87,7 +87,7 @@
 .numberId {
     font-family: 'Shippori Mincho', serif;
     font-weight: bold;
-    opacity: 0.5;
+    opacity: 0.7;
     font-size: 1.2rem;
     margin-bottom: 5px;
 }
