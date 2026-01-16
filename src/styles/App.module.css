@@ -4,6 +4,7 @@
     flex-direction: column;
     position: relative;
     width: 100%;
+    overflow-x: clip;
 }
 
 /* 画像を閉じ込める「枠」。画面サイズに固定し、はみ出しを隠す */
